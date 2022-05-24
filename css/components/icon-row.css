@@ -1,0 +1,27 @@
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.icon-row__icon i {
+    font-size: 30px;
+}
+.icon-row__icon span {
+    margin-top: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+.icon-row__divider {
+    margin: 25px 0;
+}
+.more-suggestions {
+    margin: 30px 0;
+    border-top: var(--main-border);
+    padding-top: 10px;
+}

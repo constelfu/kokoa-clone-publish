@@ -1,0 +1,25 @@
+.badge {
+    background-color: tomato;
+    font-size: 1px;
+    width: 13px;
+    height: 13px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.find-header__badge {
+    position: relative;
+}
+.more-header__badge {
+    position: relative;
+    left: 42px;
+}
+.header__notification--badge {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 55px;
+    bottom: 18px;
+}

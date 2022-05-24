@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chats - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>111%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search"></i> </span>
+        <span><i class="far fa-comment-dots"></i> </span>
+        <span><i class="fas fa-music"></i></span>
+        <span><i class="fas fa-cog"></i></span>
+      </div>
+    </header>
+
+    <main class="friends-screen">
+      <a href="in-chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="screenshots/lysithea.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Lysithea</h4>
+              <span class="user-component__subtitle">어디야?</span>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">15:39</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="in-chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="screenshots/lysithea.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Lysithea</h4>
+              <span class="user-component__subtitle">보고 싶어~</span>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">15:49</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="in-chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="screenshots/lysithea.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Lysithea</h4>
+              <span class="user-component__subtitle">알았어!</span>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">15:59</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="in-chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="screenshots/lysithea.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Lysithea</h4>
+              <span class="user-component__subtitle">같이 하자!</span>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">16:10</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="in-chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="screenshots/lysithea.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Lysithea</h4>
+              <span class="user-component__subtitle">다음에 또 봐!</span>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">18:39</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html"
+            ><span class="nav__notification--chat badge nav__animation">1</span
+            ><i class="fas fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><span
+              class="badge nav__notification--chat nav__notification--dot"
+            ></span
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>화면이 너무 큽니다!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="screenshot.js"></script>
+  </body>
+</html>

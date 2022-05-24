@@ -1,0 +1,26 @@
+.status-bar {
+    position: sticky; /* fixed 대신 사용할 것! */
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 5px 3px;
+    background-color: rgb(255, 192, 181);
+    z-index: 1; /* sticky를 사용하더라도 반드시 설정 */
+}
+.status-bar__column {
+    width: 33%;
+}
+.status-bar__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+.status-bar__column:nth-child(3) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.status-bar__column .fa-battery-full {
+    margin: 0 5px;
+}
